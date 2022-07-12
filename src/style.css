@@ -1,27 +1,14 @@
 /* styles go here */
-html {
-  font-weight: 700;
-  color: #000;
-}
 
-body {
-  margin: 0 10px;
-  margin-bottom: 50px;
+.frame {
+  margin-bottom: 20px;
 }
 
 .form-field {
   display: block;
-  padding: 5px 0;
+  margin-bottom: 10px;
 }
 
-.fieldset {
-  margin: 20px;
-  border: 2px solid rgb(37, 37, 37);
-}
-
-button {
-  margin: 0 20px;
-  border: 1px #000 solid;
-  border-radius: 5px;
-  background-color: #fff;
+.form-field:last-child {
+  margin-bottom: 0;
 }
